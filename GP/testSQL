@@ -1,0 +1,28 @@
+CREATE TABLE books.books2
+(
+    id integer NOT NULL,
+    name character(250) COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT "books2_pkey" PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE books.books2
+    OWNER to postgres;
+    
+INSERT into books.books2(id, name) values (0, 'Alex Gash');
+INSERT into books.books2(id, name) values (1, 'Ilon Mask');
+INSERT into books.books2(id, name) values (2, 'Bill Gates ');
+INSERT into books.books2(id, name) values (3, 'Mark Zucker');
+INSERT into books.books2(id, name) values (4, 'Jeff Bezos');
+
+
+INSERT into books.BOOKS(id, name) values (0, 'Jeff Bezos');
+INSERT into books.BOOKS(id, name) values (1, 'Ilon Mask');
+
+
+
+INSERT into books.books(id, name) values (0, 'Ilon Mask');
+INSERT into books.books(id, name) values (1, 'Ilon Mask');
+INSERT into books.books(id, name) values (2, 'Ilon Mask');
+INSERT into books.books(id, name) values (3, 'Ilon Mask');
