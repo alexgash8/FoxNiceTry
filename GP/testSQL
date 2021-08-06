@@ -20,6 +20,11 @@ INSERT into books.books2(id, name) values (4, 'Jeff Bezos');
 INSERT into books.BOOKS(id, name) values (0, 'Jeff Bezos');
 INSERT into books.BOOKS(id, name) values (1, 'Ilon Mask');
 
+INSERT into books.BOOKS(id, name) values (0, 'Jeff Bezos');
+INSERT into books.BOOKS(id, name) values (1, 'Ilon Mask');
+INSERT into books.BOOKS(id, name) values (0, 'Jeff Bezos');
+INSERT into books.BOOKS(id, name) values (1, 'Ilon Mask');
+
 
 
 INSERT into books.books(id, name) values (0, 'Ilon Mask');
