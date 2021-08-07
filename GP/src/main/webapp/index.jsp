@@ -11,6 +11,7 @@
 </head>
 <body>
 <h1>Hello but what a fuck???</h1>
+<h2>I wanna get out of here!</h2>
 <br>
 	<%
 		for(String name : DatabaseFacade.getBooks()){
